@@ -1,0 +1,105 @@
+body{
+  background-size: 100%;
+}
+
+#main-box{
+  overflow: scroll;
+  width: 75%;
+  height: 440px; 
+  margin: 0 auto; 
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-radial-gradient(right center, circle farthest-side, #F0F0F0 0%, #EDEDED 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-radial-gradient(right center, circle farthest-side, #F0F0F0 0%, #EDEDED 100%);
+
+  /* Opera */ 
+  background-image: -o-radial-gradient(right center, circle farthest-side, #F0F0F0 0%, #EDEDED 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(radial, right center, 0, right center, 954, color-stop(0, #F0F0F0), color-stop(1, #EDEDED));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-radial-gradient(right center, circle farthest-side, #F0F0F0 0%, #EDEDED 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: radial-gradient(circle farthest-side at right center, #F0F0F0 0%, #EDEDED 100%);
+  -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(#3b3b3b), to(rgba(0,0,0,0)))
+  color: #000000;
+  z-index: 100000;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  filter:alpha(opacity=50); 
+  opacity:0.5;
+  border-style: ridge;
+  border-width: 4px;
+  padding: 25px;
+  padding-bottom: 25px;
+
+}
+
+
+#menu-bar{
+
+  position: absolute;
+  bottom: 25%;
+  right: 12%;
+
+
+
+}
+
+#menu-buttons{
+
+  display: inline;
+}
+
+.menu-button{
+  display: inline;
+  font-size: 200%;
+  padding: 0 30px;
+}
+
+a{
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+.starting-content{
+  display: none;
+
+}
+
+#spinner{
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+
+#audio-files{
+  list-style-type: none;
+}
+
+li { cursor: pointer; }
+
+div.images{
+  padding: 0;
+  display: inline-block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+
+div.images img{
+  max-height: 88%;
+  max-width: 88%;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
