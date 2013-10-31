@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#spinner").spinner({innerRadius: 20, outerRadius: 50, dashes: 20, strokeWidth: 2});
-    var openContent = "audio";
+    var openContent = "about";
     $(".menu-button a").click(function(event){
 
         if(event.target.id != openContent){

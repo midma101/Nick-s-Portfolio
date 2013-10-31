@@ -1,5 +1,6 @@
 *{
   font-family: "Ubuntu";
+  color: black;
 }
 
 body{
@@ -103,7 +104,7 @@ a{
   list-style-type: none;
 }
 
-li { cursor: pointer; }
+
 
 div.images{
   padding: 0;
@@ -131,15 +132,13 @@ div.images div{
   white-space: nowrap;
 }
 
-a#contact-email{
-  top: 50%;
-  left: 43%;
-  position: relative;
+#contact-email{
+  font-size: large;
 }
 
 #about-content{
-  top: 20%;
   position: relative;
+  font-size: large;
 }
 
 #audio-collections{
@@ -153,9 +152,6 @@ a#contact-email{
   padding-bottom: 40px;
 }
 
-#audio-collections li{
-  display: inline-block;
-}
 
 .audio-collection{
   display: inline-block;
@@ -165,13 +161,8 @@ a#contact-email{
   margin-left: 25%;
 }
 
-.picture-description#first-description{
-  float: left;
-}
-
-#blog-content{
-  height: 100%;
-  width: 100%;
+.picture-description{
+  /*float: left;*/
 }
 
 
